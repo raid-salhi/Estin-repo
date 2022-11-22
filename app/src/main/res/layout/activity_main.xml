@@ -1,0 +1,628 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_black"
+                    android:text="@string/estinrep"
+                    android:textColor="@color/text"
+                    android:textSize="34sp"
+                    app:drawableLeftCompat="@drawable/ic_baseline_laptop_chromebook_24"
+                    app:layout_constraintVertical_bias="0.146" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="30dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Cp1Tag"
+                    style="@style/ticket_style"
+                    android:text="@string/_1cp" />
+
+                <LinearLayout
+                    android:id="@+id/cp1Layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="visible">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/background">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester1_cp1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester1"
+                                android:textColor="@color/text1"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp1"
+                                style="@style/module_style"
+                                android:linksClickable="false"
+                                android:text="@string/Analyse1"
+                                tools:ignore="TouchTargetSizeCheck,DuplicateSpeakableTextCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp2"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Algebre1"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp3"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Algo"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp4"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Archi1"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp5"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Elec"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp6"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/se1"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp7"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/btw"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_1cp8"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/technique"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/background">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester2_cp1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester2"
+                                android:textColor="@color/text1"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp1"
+                                style="@style/module_style"
+                                android:text="@string/Analyse2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp2"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Algebre2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp3"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/asdd"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp4"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/elecf"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp5"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/se2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp6"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Mecanique"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp7"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/teo"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_1cp8"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:linksClickable="false"
+                                android:text="@string/Anglais1"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Cp2Tag"
+                    style="@style/ticket_style"
+                    android:text="@string/_2cp" />
+
+                <LinearLayout
+                    android:id="@+id/cp2Layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/background">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester1_cp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester1"
+                                android:textColor="@color/text1"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                tools:ignore="DuplicateIds" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp1"
+                                style="@style/module_style"
+                                android:text="@string/Analyse3"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp2"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Proba"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp3"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Algebre2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp4"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Archi2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp5"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Elecf2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp6"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/sfsd"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp7"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Eco"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <TextView
+                                android:id="@+id/moduleS1_2cp8"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Anglais2"
+                                tools:ignore="TouchTargetSizeCheck" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/background">
+
+
+                        <LinearLayout
+                            android:id="@+id/cs1Layout"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester2_cp2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester2"
+                                android:textColor="@color/text1"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp1"
+                                style="@style/module_style"
+                                android:text="@string/Analyse4" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp2"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/isi" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp3"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/proba2" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp4"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/Logm" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp5"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/poo" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp6"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/oop" />
+
+                            <TextView
+                                android:id="@+id/moduleS2_2cp7"
+                                style="@style/module_style"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="@string/anglais3" />
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Cs1Tag"
+                    style="@style/ticket_style"
+                    android:backgroundTint="#6600FFC6"
+                    android:text="@string/_1cs" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="@color/background">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester1"
+                                android:textColor="@color/text"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic" />
+
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="5dp"
+                        android:layout_weight="1"
+                        app:cardBackgroundColor="#3B3486">
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/card"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:id="@+id/Semester2"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:clickable="false"
+                                android:fontFamily="sans-serif-light"
+                                android:gravity="center"
+                                android:text="@string/semester2"
+                                android:textColor="@color/text"
+                                android:textSize="16sp"
+                                android:textStyle="bold|italic"
+                                tools:ignore="DuplicateIds" />
+
+
+                            <Space
+                                android:layout_width="match_parent"
+                                android:layout_height="15dp" />
+                        </LinearLayout>
+
+
+                    </androidx.cardview.widget.CardView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/down_bar"
+        android:gravity="center"
+        android:orientation="horizontal"
+        tools:showIn="@layout/activity_main">
+
+        <Button
+            android:id="@+id/homeButton"
+            style="?attr/materialIconButtonOutlinedStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/clicked"
+            android:contentDescription="@string/home"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/ic_baseline_home_24"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp"
+            tools:ignore="DuplicateSpeakableTextCheck" />
+
+        <Button
+            android:id="@+id/contactButton"
+            style="?attr/materialIconButtonOutlinedStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:layout_marginRight="5dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/contact"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/ic_baseline_person_24"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp" />
+
+        <Button
+            android:id="@+id/aboutButton"
+            style="?attr/materialIconButtonOutlinedStyle"
+            android:layout_width="48dp"
+            android:layout_height="48dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:contentDescription="@string/about"
+            android:insetLeft="0dp"
+            android:insetTop="0dp"
+            android:insetRight="0dp"
+            android:insetBottom="0dp"
+            app:icon="@drawable/info"
+            app:iconGravity="textStart"
+            app:iconPadding="0dp" />
+    </LinearLayout>
+
+</RelativeLayout>

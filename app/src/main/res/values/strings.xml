@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Estin Repository</string>
+    <string name="estinrep">EstinRep</string>
+    <string name="estinreplogo">EstinRepLogo</string>
+    <string name="_1cp">1CP</string>
+    <string name="semester1">Semestre1</string>
+    <string name="textview">TextView</string>
+    <string name="semester2">Semestre2</string>
+    <string name="_2cp">2CP</string>
+    <string name="_1cs">1CS</string>
+    <string name="Analyse1"><a href="https://drive.google.com/drive/folders/1NACYYX7czecJ7WggKtEbWA7-79A4EWqC">Analyse1</a></string>
+    <string name="Algebre1"><a href="https://drive.google.com/drive/folders/1NACYYX7czecJ7WggKtEbWA7-79A4EWqC">Algebre1</a></string>
+    <string name="Algo"><a href="https://drive.google.com/drive/folders/1Qlnjf_sseCIruPc6bpqSqFgjJ7JPkFa7">ASDS(ALGO1)</a></string>
+    <string name="Elec"><a href="https://drive.google.com/drive/folders/1PQZUS5uoPMhuz2thEoKH69dDYhW0VemI">Electricite1</a></string>
+    <string name="Archi1"><a href="https://drive.google.com/drive/folders/1Wsovk_Unv--YndAElXkshwClXEnGsU6R">Architecture des ordinateurs 1</a></string>
+    <string name="btw"><a href="https://drive.google.com/drive/folders/1j-hoafEc81zNf5M1ZCjpgYU2uTMvavrW">Bureatique et web</a></string>
+    <string name="technique"><a href="https://drive.google.com/drive/folders/1TOaRSlR4-4y6N-ALFHB-RcFDqIJWlcA5">Technique expression ecrite</a></string>
+    <string name="se1"><a href="https://drive.google.com/drive/folders/15NkhBX3gzV9-wJuxexLrCoFr2JYjUuyw">Systeme expoloitation1</a></string>
+    <string name="Analyse2"><a href="https://drive.google.com/drive/folders/1FcBF1PGB98QZ4fvUR1AvWI5RuxTzX84e">Analyse2</a></string>
+    <string name="Algebre2"><a href="https://drive.google.com/drive/folders/1k-L42I4mW641G-gCv1OkkmfHaAy0YvSv">Algebre2</a></string>
+    <string name="elecf"><a href="https://drive.google.com/drive/folders/1ouMD02IIIA63p0BIMSEEIv5Z_kPbs54w">Electronique fondamentale</a></string>
+    <string name="se2"><a href="https://drive.google.com/drive/folders/1vPE7vQsXX5N8zl05IYNVF04a1HLF6pz7">Systeme exploitation2</a></string>
+    <string name="Anglais1"><a href="https://drive.google.com/drive/folders/1WYTwbBDPLB9VcyKDFgTPiZJtDcvRAL4H">Anglais1</a></string>
+    <string name="teo"><a href="https://drive.google.com/drive/folders/1TOaRSlR4-4y6N-ALFHB-RcFDqIJWlcA5">Technique expression orale</a></string>
+    <string name="asdd"><a href="https://drive.google.com/drive/folders/1z9_Omgv4g2urfRkpytxTPlr9agFPAJ34">ASDD(ALGO2)</a></string>
+    <string name="Mecanique"><a href="https://drive.google.com/drive/folders/1UpAYEP3YxSeWVT9xy67kYKBjtcReb-eT">Mecanique de point</a></string>
+    <string name="Analyse3"><a href="https://drive.google.com/drive/folders/17lHVhNDME2aLjVyPXbWqk3ooZjdQt0w7">Analyse3</a></string>
+    <string name="Algebre3"><a href="https://drive.google.com/drive/folders/15_TdcCXl-VGSySGE9V9zetOSlSFlN3SW">Algebre3</a></string>
+    <string name="Elecf2"><a href="https://drive.google.com/drive/folders/1q1DO1_hp2YWtc3zo9M7OPrb1iD0EPBf3">Electronique fondamentale2</a></string>
+    <string name="Archi2"><a href="https://drive.google.com/drive/folders/1BwGYWkZ1UOubBmZVAsBUM6LG7QqHnDGx">Architectures des ordinateurs2</a></string>
+    <string name="Eco"><a href="">Economie</a></string>
+    <string name="Anglais2"><a href="https://drive.google.com/drive/folders/1-CuNjBrnFDEVnr0vbNGkX-a3272pc2Ay">Anglais2</a></string>
+    <string name="sfsd"><a href="https://drive.google.com/drive/folders/1tWXVTtKF8J0bIYK_zWTPwtcmfD6WdgG_">SFSD</a></string>
+    <string name="Proba"><a href="https://drive.google.com/drive/folders/1Pg-eYCbeXRhLpS5tzZ_DRaX_JLx2Yh0X">Probabilites et statiques</a></string>
+    <string name="Analyse4"><a href="https://drive.google.com/drive/folders/19TRBMzaLKgl-bvEkrCQ_XH45cVeDrI5T">Analyse4</a></string>
+    <string name="Logm"><a href="https://drive.google.com/drive/folders/1bZtLR0DYIXxWShZQKyB3t96AF81tku33">Logique mathematique</a></string>
+    <string name="oop"><a href="https://drive.google.com/drive/folders/1NyaWsHeldsP3nurxwgm3Dmj41xJOUMkp">Optique et ondes electromagnetique</a></string>
+    <string name="poo"><a href="https://drive.google.com/drive/folders/1NyaWsHeldsP3nurxwgm3Dmj41xJOUMkp">Pogrammation Orientee Objet</a></string>
+    <string name="isi"><a href="https://drive.google.com/drive/folders/18b_DarEX1IgV4uyzzvKcB5qJqEytp8ES">Intro systeme information</a></string>
+    <string name="proba2"><a href="https://drive.google.com/drive/folders/15160ed2Jv6wYDVEegLa43iq3W3nUcNy0">Probabiltes et statiques2</a></string>
+    <string name="anglais3"><a href="">Anglais3</a></string>
+    <string name="about_text">This application is made by Salhi Hocine Raid , a student in computer science at ESTIN . It is made for YOU, computer science students . It contains the courses , TD"s and even exams in different modules , you'll be able to access the drive of each ESI establishment., ENJOY YOUR LEARNING !</string>
+    <string name="contact_text">This page is made for you , you can contact the developer if you have any feedbacks , feel free to express yourself .<br/>
+Leave your name and your email , Thank You.</string>
+    <string name="home">Home</string>
+    <string name="contact">Contact</string>
+    <string name="about">About</string>
+</resources>
